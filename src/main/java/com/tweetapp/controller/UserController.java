@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://tweetbadal.azurewebsites.net")
 @RequestMapping("/api/v1.0/tweets")
 public class UserController {
 
